@@ -91,3 +91,13 @@ input[type="time"] {
   text-align: center;
   font-family:  'Staatliches', cursive;
 } 
+
+.ok{
+  color:#c10059 ;
+  cursor: pointer;
+}
+
+.late{
+  color: red;
+  cursor: pointer;
+}

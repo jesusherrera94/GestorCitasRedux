@@ -11,7 +11,7 @@ const Form = ({ dispatch }) => {
         propietario:'',
         fecha:'',
         hora:'',
-        sintomas:'',
+        sintomas:''
         
     });
     const [error,setError] = useState(false);
@@ -43,7 +43,7 @@ const Form = ({ dispatch }) => {
             propietario:'',
             fecha:'',
             hora:'',
-            sintomas:'',
+            sintomas:''
         })
 
     }

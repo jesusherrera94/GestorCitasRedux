@@ -12,6 +12,7 @@ const Citas = ({citas, eliminarCita}) => {
               eliminarCita = {eliminarCita}
             />
           ))}
+
         </div>
       );
 }

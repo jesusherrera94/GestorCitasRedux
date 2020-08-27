@@ -12,7 +12,8 @@ const allCitas = (state)=> ({
 
 //eliminar un elemento
 const deleteCita = (dispatch)=>({
-    eliminarCita: id => dispatch({type:'delete',id})
+    eliminarCita: (id,type) => dispatch({type:type,id})
 })
+
 
 export default connect(allCitas, deleteCita)(Citas);
